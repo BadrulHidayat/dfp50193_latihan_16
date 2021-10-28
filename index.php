@@ -155,7 +155,7 @@ $program = [
         </tr>
         <?php
         foreach ($program as $poli => $value) {
-            echo "<th colspan=2>$poli</th>";
+            echo "<th class=poli colspan=2>$poli</th>";
             echo "<tr>";
             foreach ($value as $course => $syarat) {
                 echo "<td rowspan=2>$course</td>";
